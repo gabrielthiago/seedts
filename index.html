@@ -9,11 +9,10 @@
   <title>Seedts</title>
   <!--Bootstrap Core-->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <!--FontAwesome Icons-->
-  <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <!--Styles Core-->
   <link href="assets/css/styles.css" rel="stylesheet">
 
@@ -25,37 +24,53 @@
 </head>
 <body>
 
-  <header class="menu-topo">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
+  <header id="menu">
+    <nav class="navbar navbar-default">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">SeedTS</a>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="assets\img\seedts-logo-300x101.png"></a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Produtos</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Soluções <span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produtos <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
+                <li><a href="api-gateway.html">API Gateway</a></li>
+                <li><a href="gerenciamento-api.html">Gerenciamento API</a></li>
+                <li><a href="portal-api.html">Portal API</a></li>
+                <li><a href="seguranca-soa.html">Segurança SOA & API</a></li>
               </ul>
             </li>
-            <li><a href="#">Imprensa</a></li>
-            <li><a href="#">Clientes</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Serviços <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Estratégia de API</a></li>
+                <li><a href="#">Integrações Cloud</a></li>
+                <li><a href="#">Fábrica de softwares DevOps</a></li>
+                <li><a href="#">Microservices</a></li>
+                <li><a href="#">Assessment e roadmap SOA & API</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Empresa <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Parceiros</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <section id="banner-principal" data-type="background" data-speed="10">
+  <section id="banner-principal">
     <article>
       <div class="container clearfix">
         <div class="row">
@@ -68,19 +83,34 @@
     </article>
   </section>
 
-  <section id="">
+  <section>
     <div class="container">
-      <h3>Plataforma Segura para Negócios Digitais</h3>
-      <h5>Seedts ajuda seu negócio a acelerar sua distribuição digital com segurança. Pensando sempre em sistemas mobiles e cloud.</h5>
       <div class="row">
-        <div class="col-sm-4"><i class="material-icons md-48">&#xE864;</i><h5>Sistema cloud</h5><h6>Seus dados em acessiveis de qualquer lugar.</h6></div>
-        <div class="col-sm-4"><i class="material-icons md-48">&#xE91F;</i></div>
-        <div class="col-sm-4"><i class="material-icons md-48">&#xE8F9;</i></div>
       </div>
     </div>
   </section>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer id="rodape">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="assets/img/seedts-branco.png" class="logo">
+        </div>
+        <div class="col-sm-1">
+          <h5>Contato</h5>
+        </div>
+        <div class="col-sm-1">
+          <h5>Sobre</h5>
+        </div>
+        <div class="col-sm-1">
+          <h5>Parceiros</h5>
+        </div>
+        <div class="col-sm-3 navbar-right">
+          <h5>COPYRIGHT © 2015 SeedTS</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Scripts -->

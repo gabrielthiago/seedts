@@ -2,22 +2,294 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 { font-size: 64px; }
+.material-icons.md-125 { font-size: 125px; }
+.material-icons.md-220 { font-size: 220px; }
+.text-center{text-align: center;}
+.txt-dir{text-align: right;}
+.txt-esq{text-align: left;}
+/*Cores do Logo*/
+.azul-escuro {color:#00597A;}
+.vermelho {color:#FC1E26;}
+/*Paleta*/
+/* cinza claro #E0E0E0; */
+/*MENU*/
 
-#banner-principal {
-	background: url('../img/bg_predio.jpg') 50% 0 repeat fixed;
-	min-height: 500px;
-	position: relative;
-	display: table;
-	width: 100%;
-	padding: 40px 0;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
+#menu .logo{
+  height:60px;
 }
 
-#banner-principal article {
+#menu .navbar-fixed-top {
+    min-height: 90px;
+}
+
+#menu .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 85px;
+}
+
+@media (max-width: 767px) {
+    #menu .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+    #menu .navbar-header{height:90px;}
+}
+
+#menu nav.navbar{
+  border: none;
+
+  -webkit-box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 2px 27px 0px rgba(0,0,0,0.22);
+}
+
+#menu #myNavbar .dropdown a.dropdown-toggle {
+  font-size: 16px;
+
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+#menu #myNavbar .navbar-default .navbar-nav>.open>a, .navbar-default
+.navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    border-bottom: 5px solid #FC1E26;
+}
+
+/*FOOTER*/
+#rodape{
+  background-color:#00597A;
+  width:100%;
+
+  color:white;
+}
+
+#rodape .container {
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+
+#rodape .logo{
+  height:30px;
+}
+
+/*API GATEWAY*/
+#api-gateway-banner {
+  margin-top:90px;
+  height:300px;
+  background-color:gray;
+  background: url(../img/bg-gateway.jpg) 50% 0 repeat fixed;
   width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#api-gateway-banner .row {
+  padding-top:50px;
+}
+
+#api-gateway-banner .material-icons{
+  padding-top:20px;
+}
+
+#api-gateway-intro {
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+#api-gateway-vantagens {
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  padding-top:100px;
+  padding-bottom:100px;
+
+  background: url(../img/bg-gateway.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#api-gateway-conteudo{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+#api-gateway-vejaMais {
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#api-gateway-vejaMais .botao {
+  background-color:#E0E0E0;
+  padding-top:30px;
+  padding-bottom:30px;
+  height:180px;
+  border-bottom: 5px solid white;
+  cursor: pointer;
+
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+#api-gateway-vejaMais .botao:hover {
+  border-bottom: 5px solid #FC1E26;
+}
+
+#api-gateway-vejaMais .botao:hover .material-icons{
+  font-size: 75px;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+/*PORTAL API*/
+
+#api-portal-banner {
+  margin-top:90px;
+  height:300px;
+  background-color:gray;
+  background: url(../img/bg-portal.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#api-portal-banner .row {
+  padding-top:50px;
+}
+
+#api-portal-banner .material-icons{
+  padding-top:20px;
+}
+
+#api-portal-intro {
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+#api-portal-vantagens {
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:100px;
+
+  background: url(../img/bg-portal.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#api-portal-conteudo{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+#api-portal-vejaMais {
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#api-portal-vejaMais .botao {
+  background-color:#E0E0E0;
+  padding-top:30px;
+  padding-bottom:30px;
+  height:180px;
+  border-bottom: 5px solid white;
+  cursor: pointer;
+
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+#api-portal-vejaMais .botao:hover {
+  border-bottom: 5px solid #FC1E26;
+}
+
+#api-portal-vejaMais .botao:hover .material-icons{
+  font-size: 75px;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+/*GERENCIAMENTO API*/
+
+#api-gerenciamento-banner {
+  margin-top:90px;
+  height:300px;
+  background-color:gray;
+  background: url(../img/bg-gerenciamento.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:#00597A;
+}
+
+#api-gerenciamento-banner .row {
+  padding-top:50px;
+}
+
+#api-gerenciamento-banner .material-icons{
+  padding-top:20px;
+}
+
+#api-gerenciamento-intro {
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+#api-gerenciamento-vantagens {
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:100px;
+
+  background: url(../img/bg-gerenciamento.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:#00597A;;
+}
+
+#api-gerenciamento-conteudo{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+#api-gerenciamento-vejaMais {
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#api-gerenciamento-vejaMais .botao {
+  background-color:#E0E0E0;
+  padding-top:30px;
+  padding-bottom:30px;
+  height:180px;
+  border-bottom: 5px solid white;
+  cursor: pointer;
+
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+#api-gerenciamento-vejaMais .botao:hover {
+  border-bottom: 5px solid #FC1E26;
+}
+
+#api-gerenciamento-vejaMais .botao:hover .material-icons{
+  font-size: 75px;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
