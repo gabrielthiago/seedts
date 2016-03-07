@@ -79,7 +79,7 @@
 /*API GATEWAY*/
 #api-gateway-banner {
   margin-top:90px;
-  height:300px;
+  height:400px;
   background-color:gray;
   background: url(../img/bg-gateway.jpg) 50% 0 repeat fixed;
   width: 100%;
@@ -89,7 +89,7 @@
 }
 
 #api-gateway-banner .row {
-  padding-top:50px;
+  padding-top:100px;
 }
 
 #api-gateway-banner .material-icons{
@@ -152,7 +152,7 @@
 
 #api-portal-banner {
   margin-top:90px;
-  height:300px;
+  height:400px;
   background-color:gray;
   background: url(../img/bg-portal.jpg) 50% 0 repeat fixed;
   width: 100%;
@@ -162,7 +162,7 @@
 }
 
 #api-portal-banner .row {
-  padding-top:50px;
+  padding-top:100px;
 }
 
 #api-portal-banner .material-icons{
@@ -225,7 +225,7 @@
 
 #api-gerenciamento-banner {
   margin-top:90px;
-  height:300px;
+  height:400px;
   background-color:gray;
   background: url(../img/bg-gerenciamento.jpg) 50% 0 repeat fixed;
   width: 100%;
@@ -235,7 +235,7 @@
 }
 
 #api-gerenciamento-banner .row {
-  padding-top:50px;
+  padding-top:100px;
 }
 
 #api-gerenciamento-banner .material-icons{
@@ -287,6 +287,78 @@
 }
 
 #api-gerenciamento-vejaMais .botao:hover .material-icons{
+  font-size: 75px;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+/*SEGURANÇA SOA & API*/
+#seguranca-banner {
+  margin-top:90px;
+  height:400px;
+  background-color:gray;
+  background: url(../img/bg-seguranca.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#seguranca-banner .row {
+  padding-top:100px;
+}
+
+#seguranca-banner .material-icons{
+  padding-top:20px;
+}
+
+#seguranca-intro {
+  padding-top: 40px;
+  padding-bottom:40px;
+}
+
+#seguranca-vantagens {
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:100px;
+
+  background: url(../img/bg-seguranca.jpg) 50% 0 repeat fixed;
+  width: 100%;
+  position: relative;
+
+  color:white;
+}
+
+#seguranca-conteudo{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+#seguranca-vejaMais {
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#seguranca-vejaMais .botao {
+  background-color:#E0E0E0;
+  padding-top:30px;
+  padding-bottom:30px;
+  height:180px;
+  border-bottom: 5px solid white;
+  cursor: pointer;
+
+  -webkit-transition: all ease-out 0.2s;
+  -moz-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s;
+}
+#seguranca-vejaMais .botao:hover {
+  border-bottom: 5px solid #FC1E26;
+}
+
+#seguranca-vejaMais .botao:hover .material-icons{
   font-size: 75px;
   -webkit-transition: all ease 0.2s;
   -moz-transition: all ease 0.2s;
