@@ -15,7 +15,7 @@
 /*Paleta*/
 /* cinza claro #E0E0E0; */
 /*MENU*/
-
+#menu{z-index:55;}
 #menu .logo{
   height:60px;
 }
@@ -75,6 +75,12 @@
 
 #rodape .logo{
   height:30px;
+}
+
+/*INDEX*/
+
+#carrossel-principal{
+  margin-top: 90px;
 }
 
 /*API GATEWAY*/
@@ -366,6 +372,7 @@
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
+<<<<<<< HEAD
 
 /*Estratégia API*/
 
@@ -529,3 +536,5 @@
 .entrada{
   visibility: hidden;
 }
+=======
+>>>>>>> origin/master
