@@ -83,6 +83,13 @@
   margin-top: 90px;
 }
 
+.carousel-control{
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+}
+
 /*API GATEWAY*/
 #api-gateway-banner {
   margin-top:90px;
@@ -372,7 +379,6 @@
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
-<<<<<<< HEAD
 
 /*Estratégia API*/
 
@@ -420,6 +426,38 @@
   text-align: center;
 
   background-color:#FFC107;
+}
+
+/*MICROSERVICES*/
+
+#microservices-banner {
+  margin-top:90px;
+  padding-top:80px;
+  padding-bottom:80px;
+  width: 100%;
+  position: relative;
+
+  background: url(../img/bg-mosaico.png) 50% 0 repeat fixed;
+
+  text-align: center;
+
+  background-color:#CDDC39;
+}
+
+/*Assessment e Roadmap*/
+
+#roadmap-banner {
+  margin-top:90px;
+  padding-top:80px;
+  padding-bottom:80px;
+  width: 100%;
+  position: relative;
+
+  background: url(../img/bg-mosaico.png) 50% 0 repeat fixed;
+
+  text-align: center;
+
+  background-color:#673AB7;
 }
 
 /*SOBRE*/
@@ -536,5 +574,3 @@
 .entrada{
   visibility: hidden;
 }
-=======
->>>>>>> origin/master
